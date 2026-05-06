@@ -2,6 +2,61 @@
 using namespace std;
 typedef long long ll;
 
+
+
+
+
+
+
+
+int main() {
+    ios::sync_with_stdio(0);
+
+    cin.tie(0);  
+    cout.tie(0);
+
+
+    int t;
+    cin >> t; //cantidad de test cases
+    vector<ll> s; //soluciones
+
+
+    for (int i=1; i <= t; i++){
+        int n;
+        cin >> n; //largo del vector
+        int x;
+        int cant;
+        int res = 0 ;
+
+        for (int j=1; j <= n; j++){ 
+            cin >> x; 
+            if(j==1){
+                cant = x;
+            }
+            if(x < cant){
+                res++;
+            }
+            else{
+                cant = x;
+            }
+            
+        }
+
+        s.push_back(res);
+
+    }
+
+    for(int i = 0; i < t; i++){
+        cout << s[i] << "\n";
+    }
+
+
+    
+}
+
+
+
+/*
 ll calc(vector<ll> v, ll n){
     
     int j = n - 1;
@@ -41,13 +96,16 @@ int main() {
 
     }
 
-    for(int i = 0; i <= t; i++){
-        cout << s[i];
+    for(int i = 0; i < t; i++){
+        cout << s[i] << "\n";
     }
 
 
     
 }
+
+*/
+
 
 
 //g++ -Wall -std=c++17 nombre.cpp -o nombreEjecutable
