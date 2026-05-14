@@ -84,3 +84,9 @@ int main() {
     
     
 }
+
+
+
+/**
+ primero sumo los que si, luego, los seteo a 0, y ahí busco la ventana o el subarray
+ */

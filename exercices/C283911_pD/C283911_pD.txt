@@ -1,0 +1,47 @@
+D. Fast search
+time limit per test2 seconds
+memory limit per test512 megabytes
+You are given an array a
+ of n
+ integers a1,a2,…,an
+.
+
+Your task is to response to the queries like "How many numbers' values are between l
+ and r
+?".
+
+Input
+The first line of the input contains n
+ — the length of the array (1≤n≤105
+).
+
+The second line contains n
+ integers a1,a2,…,an
+ (−109≤ai≤109
+).
+
+The third line contains integer k
+ — the number of queries (1≤k≤105
+).
+
+The following k
+ lines contain a pair of integers l
+ r
+ — query, described above (−109≤l≤r≤109
+).
+
+Output
+The output must consist of k
+ integers — responses for the queries.
+
+Example
+InputCopy
+5
+10 1 10 3 4
+4
+1 10
+2 9
+3 4
+2 2
+OutputCopy
+5 2 2 0 

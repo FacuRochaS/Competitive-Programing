@@ -68,6 +68,7 @@ int main() {
     if(e>=0){
         h[e].second=false;
         tt--;
+        r[e]=0;
     }
     co = co - (d*2);
   

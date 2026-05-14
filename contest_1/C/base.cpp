@@ -33,6 +33,9 @@ int main() {
         
     }
  
+    //podria comparar solo 1
+    // o resolver con diccionario
+    //map<Tipo key,tipo Clave>
  
     for(int i=0; i < z.size(); i++){
         
